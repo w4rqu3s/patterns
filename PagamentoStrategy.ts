@@ -1,7 +1,7 @@
 // interface
 
-interface PagamentoStrategy {
+export default interface PagamentoStrategy {
 
-    doAlgorithm(valor: Number): string;
+    pagar(valor: Number): string;
 
 }
